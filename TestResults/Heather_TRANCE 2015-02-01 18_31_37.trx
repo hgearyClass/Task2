@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b449c3dd-5f18-495c-b55e-dde00166ea8e" name="Heather@TRANCE 2015-02-01 18:31:37" runUser="Trance\Heather" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="99465352-ae92-469c-b4aa-2e42f31f0183">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Heather_TRANCE 2015-02-01 18_31_37">
+      <DeploymentItem filename="C:\Users\Heather\Documents\WVU\SENG691Z\Assignment1\Task2\bin\Debug\Task2.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-02-01T18:31:37.0836810-05:00" queuing="2015-02-01T18:31:38.1017392-05:00" start="2015-02-01T18:31:38.1627427-05:00" finish="2015-02-01T18:31:38.9707889-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="insertPieceTest" storage="c:\users\heather\documents\wvu\seng691z\assignment1\task2\task2test\bin\debug\task2test.dll" id="06f42233-a7bd-0766-ee37-841e22fdfd66">
+      <Execution id="ad76f31e-0446-432e-916d-3cd7b9581e20" />
+      <TestMethod codeBase="C:/Users/Heather/Documents/WVU/SENG691Z/Assignment1/Task2/Task2Test/bin/Debug/Task2Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Task2Test.BoardTest, Task2Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="insertPieceTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="06f42233-a7bd-0766-ee37-841e22fdfd66" executionId="ad76f31e-0446-432e-916d-3cd7b9581e20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ad76f31e-0446-432e-916d-3cd7b9581e20" testId="06f42233-a7bd-0766-ee37-841e22fdfd66" testName="insertPieceTest" computerName="TRANCE" duration="00:00:00.0557665" startTime="2015-02-01T18:31:38.2117455-05:00" endTime="2015-02-01T18:31:38.8377813-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad76f31e-0446-432e-916d-3cd7b9581e20">
+    </UnitTestResult>
+  </Results>
+</TestRun>

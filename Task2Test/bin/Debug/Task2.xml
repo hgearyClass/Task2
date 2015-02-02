@@ -1,0 +1,87 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Task2
+</name>
+</assembly>
+<members>
+<member name="M:Task2.Board.clearBoard">
+	<summary>
+ Clear board of all X's and O's
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Task2.Board.insertPiece(System.String,System.Int16,System.Int16)">
+	<summary>
+ Insert an X or O in a specified square
+ </summary>
+	<param name="piece"></param>
+	<param name="row"></param>
+	<param name="column"></param>
+	<remarks></remarks>
+</member><member name="M:Task2.Board.isColumnValid(System.String)">
+	<summary>
+ Determine if entered column is valid for board
+ </summary>
+	<param name="columnNumber"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Task2.Board.isRowValid(System.String)">
+	<summary>
+ Determine if entered row is valid for board
+ </summary>
+	<param name="rowNumber"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Task2.Board.isPieceValid(System.String)">
+	<summary>
+ Determine if entered piece is valid for board
+ </summary>
+	<param name="piece"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Task2.Board.isSquareOpen(System.Int16,System.Int16)">
+	<summary>
+ Determine if square is open for play
+ </summary>
+	<param name="row"></param>
+	<param name="column"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Task2.Board.isWinner(System.String)">
+	<summary>
+ Determine if a specific player won a game
+ </summary>
+	<param name="player"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Task2.Board.isDraw">
+	<summary>
+ Determine if a game is a draw
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Task2.Board.isPieceTurn(System.String,System.String)">
+	<summary>
+ Determine if it is player's turn
+ </summary>
+	<param name="piece"></param>
+	<param name="previousPiece"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Task2.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Task2.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Task2.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
